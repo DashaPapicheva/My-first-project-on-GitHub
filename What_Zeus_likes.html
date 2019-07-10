@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Что же любит Зевс?</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Сайт посвящён всеми любимому коту Зевсу, 
+        который не столь грозен, как его тёска, бог грома, однако он чрезмерно мил =)">
+        <link rel="icon" href="photos/cat_icon.png">        
+        <link rel="stylesheet" href="stylesheetLike.css">
+    </head>  
+    <body> 
+        <div class="menu">
+            <ul>
+                <li><a href="main_page.html">Кто такой Зевс</a></li>
+                <li><a href="What_Zeus_likes.html">Что он любит?</a></li>
+                <li><a href="Zeus_daily_regime.html">Режим дня Зевса</a></li>
+                <li id="Photos"><a href="Zeus_photos.html">Фоточки</a></li>
+            </ul>
+        </div>
+        <div id="heart">
+           <p>ЗЕВС + ЕДА =</p>
+           <img src="photos/like.png" alt="Любовь" title="Сердечко">
+        </div>
+        <form action="" method="post" class="question" id="food">
+            <h1>Какой корм любимый у Зевса, как думаете?</h1>  
+            <p><input type="checkbox" name="food" value="Wet">Влажный корм</p>
+            <p><input type="checkbox" name="food" value="Dry">Сухой корм</p>
+            <p><input type="checkbox" name="food" value="Home">Домашняя еда</p>
+
+        </form>
+        <form action="" method="post" class="question" id="do">
+            <h1>
+                Что Зевс любит больше всего делать?
+            </h1>
+            <p><select name="todo">
+                <option value="sleep" selected>Спать</option>
+                <option value="eat">Кушать</option>
+                <option value="play">Играть</option>
+                </select>
+            </p>
+        </form>
+        <form action="" method="POST" class="question" id="play">
+            <h1>Во что Зевс любит играть, есть предположения?</h1>
+            <input type="text">
+        </form>
+        <p id="inp">
+            <input type="submit" value="Поделиться мыслями">
+            <input type="reset" value="Сброс">
+        </p>
+        <p id="answers">А правильные ответы можете узнать 
+            <a href="Right_answers.html" title="Зевсины предпочтения">здесь</a>.
+        </p>
+        <footer>
+            @Все права защищены Древнегреческими богами и хозяйкой кота Зевса
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,127 @@
+body {
+    background-color: beige;
+    color: rgb(75, 40, 40);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu {
+    background-color: rgb(103, 168, 103);
+    }
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    font-size: 0px;
+    }
+.menu ul li {
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: beige;
+    border-bottom: 1px black solid;
+    transition: background-color 0.3s;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: beige;
+}
+.menu ul li:hover {
+    background-color: rgb(75, 40, 40);
+}
+#heart {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#heart p {
+    font-size: 3rem;
+    float: left;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+#heart img {
+    width: 40%;
+}
+.question {
+    text-align: left;
+    margin: 5%;
+    padding: 0px;
+}
+.question h1 {
+    font-size: 2rem;
+}
+#do {
+    margin-bottom: 10%;
+}
+#do p select {
+    border-color:  rgb(75, 40, 40);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    width: 20%;
+}
+#play input {
+    width: 40%;
+    border-radius: 25px;
+    border-color:  rgb(75, 40, 40);
+    border-width: 1px;
+    padding: 1%;
+}
+#inp {
+    text-align: left;
+    margin: 5%;    
+}
+#inp input {
+    border-radius: 25px;
+    border-color:  rgb(103, 168, 103);
+    background-color: rgb(172, 219, 172);
+    padding: 2px 5px;
+    width: fit-content;
+}
+#answers {
+    text-align: left;
+    margin: 2% 5%;
+}
+#answers a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(75, 40, 40);
+}
+footer {
+    height: 50px;
+    background: linear-gradient(to top, rgb(103, 168, 103), beige);
+    padding-top: 5%; 
+    padding-left: 5%;
+}
+
+   @media screen and (min-width: 700px) {
+    .menu ul {
+        display:table;
+        width:100%;           
+    }
+
+    .menu ul li {
+        display:table-cell;
+        border-bottom: none;
+        border-right: 1px solid black;
+        }
+    #heart p {
+        font-size: 4rem;
+        margin-left: 5%;
+    }
+    #heart img {
+        width: 30%;
+        margin-top: 5%;
+    }
+    #do {
+        margin-bottom: 5%;
+    }
+    #Photos {
+        border-right: none;
+    }
+}
+

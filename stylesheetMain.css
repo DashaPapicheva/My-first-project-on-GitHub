@@ -1,0 +1,131 @@
+body {
+    background-color: beige;
+    color: rgb(75, 40, 40);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu {
+    background-color: rgb(103, 168, 103);
+    }
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    font-size: 0px;
+    }
+.menu ul li {
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: beige;
+    border-bottom: 1px black solid;
+    transition: background-color 0.3s;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: beige;
+}
+.menu ul li:hover {
+    background-color: rgb(75, 40, 40);
+}
+#heading {
+    text-align: center;
+    font-size: 2rem;
+}
+#box {
+    margin: 0px 5% 0px 5%;
+    text-align: center;
+    max-width: 1000px;
+}
+#img {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    }
+#img img {
+    width: 500px;
+    border-radius: 25px;
+    margin-bottom: -60px;
+}
+#remark {
+    width: 25%;
+    position: absolute;
+    left: 70%; 
+    margin: 0px;
+    border-radius: 25px;
+    padding: 1px 5px;
+    background-color: rgb(255, 228, 181, 0.7) ;
+    text-align: right;
+    }
+#remark p {
+    margin: 0px;
+    padding: 2%;
+}
+.arrow {
+    margin-top: 250px;
+    padding: 0px;
+    text-align: right;
+ }
+.arrow img {
+    width: 150px;
+    height: 200px;
+}
+.links {
+    background-color: rgb(255, 228, 181);
+    color: rgb(75, 40, 40);
+    text-align: left;
+    margin: -130px 0px 0px 0px;
+    border-radius: 25px;
+    width: 70%;
+}
+.links p {
+    padding: 10px;
+}
+
+.links p a {
+    color: rgb(75, 40, 40);
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+footer {
+    height: 50px;
+    background: linear-gradient(to top, rgb(103, 168, 103), beige);
+    padding-top: 5%; 
+    padding-left: 5%;
+   }
+
+@media screen and (min-width: 700px) {
+    .menu ul {
+        display:table;
+        width:100%;           
+    }
+
+    .menu ul li {
+        display:table-cell;
+        border-bottom: none;
+        border-right: 1px solid black;
+        }
+
+    #Photos {
+        border-right: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .arrow {
+        margin-top: 200px;
+    }
+    .arrow img {
+        width: 200px;
+        height: 150px;
+    }
+    .links {
+        margin: -90px 0px 0px 0px;
+    }
+}
